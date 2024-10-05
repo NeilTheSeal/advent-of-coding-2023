@@ -3,5 +3,5 @@
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true
   },
-  "pylint.args": ["--disable=C0114", "--disable=C0115", "--disable=C0116"]
+  "pylint.args": ["--disable=C0114", "--disable=C0115", "--disable=C0116", "--disable=W0614", "--disable=W0401"]
 }

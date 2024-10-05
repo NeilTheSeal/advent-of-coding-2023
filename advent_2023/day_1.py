@@ -46,6 +46,10 @@ def part_1():
 
 ##### PART II #####
 
+# My Part II doesn't actually provide the correct answer, despite all of the tests passing.
+# The calibration data provided on the AoC website matches up with the tests I wrote,
+# and I was unable to find any scenario in which these methods did not behave as expected.
+
 digit_strings = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 
 

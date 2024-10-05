@@ -65,15 +65,15 @@ class TestDay1Part2:
         assert find_sum_with_strings_included("two 3 four 1") == 21
         assert find_sum_with_strings_included("1 2 3") == 13
         assert find_sum_with_strings_included("1 2 3 4 5 6 7 8") == 18
-        assert (find_sum_with_strings_included("two1nine")) == 29
-        assert (find_sum_with_strings_included("eightwothree")) == 83
-        assert (find_sum_with_strings_included("abcone2threexyz")) == 13
-        assert (find_sum_with_strings_included("xtwone3four")) == 24
-        assert (find_sum_with_strings_included("4nineeightseven2")) == 42
-        assert (find_sum_with_strings_included("zoneight234")) == 14
-        assert (find_sum_with_strings_included("7pqrstsixteen")) == 76
-        assert (find_sum_with_strings_included("eighthree")) == 83
-        assert (find_sum_with_strings_included("sevenine")) == 79
+        assert find_sum_with_strings_included("two1nine") == 29
+        assert find_sum_with_strings_included("eightwothree") == 83
+        assert find_sum_with_strings_included("abcone2threexyz") == 13
+        assert find_sum_with_strings_included("xtwone3four") == 24
+        assert find_sum_with_strings_included("4nineeightseven2") == 42
+        assert find_sum_with_strings_included("zoneight234") == 14
+        assert find_sum_with_strings_included("7pqrstsixteen") == 76
+        assert find_sum_with_strings_included("eighthree") == 83
+        assert find_sum_with_strings_included("sevenine") == 79
 
     def test_add_lines_with_strings_included(self):
         line1 = "two1nine"

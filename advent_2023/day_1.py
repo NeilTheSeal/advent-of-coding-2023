@@ -143,7 +143,3 @@ def add_lines_with_strings_included(arr):
 def part_2():
     lines = load_data()
     return add_lines_with_strings_included(lines)
-
-
-if __name__ == "__main__":
-    print(part_2())
